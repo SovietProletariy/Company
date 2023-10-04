@@ -1,8 +1,10 @@
 <div class='container'>
     {{#each array}}
         <div class='block'>
-            <h1><a href="pages/{{this.path}}.html">{{this.text}}</a></h1>
-            <img src="images/state{{this.id}}.jpg" alt="ds"/>
+            <h1>{{this.good}}</h1>
+            <h2>{{this.num}}шт. = {{this.price}} Р.Д.</h2>
+            <h3>Производитель : {{this.maker}}</h3>
+            <img src="images/state{{this.id}}.jpg"/>
         </div>
     {{/each}}
 </div>

@@ -1,5 +1,5 @@
 .block{
-    margin-left: 15%;
+    margin-left: 50px;
     margin-top: 30px;
     width: 70%;
     height: 100px;
@@ -9,6 +9,11 @@
 h1{
     color: #FFF;
     margin-top: 10%;
+    margin-left: 23%;
+}
+h2, h3{
+    position: relative;
+    margin-top: 20px;
     margin-left: 23%;
 }
 
